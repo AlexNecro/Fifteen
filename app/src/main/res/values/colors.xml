@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#444440</color>
+    <color name="darkgray">#242420</color>
+    <color name="mainmenu_bg">#444440</color>
+    <color name="mainmenu_text_shadow">#7F000000</color>
+    <color name="mainmenu_text_shadow_white">#FFFFFF</color>
+</resources>

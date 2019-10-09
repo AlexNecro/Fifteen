@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="@string/settings_sound"
+            android:id="@+id/opt_sfx"
+            style = "@style/MenuFont"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:onClick="onClick" />
+        <TextView
+            android:text="@string/settings_music"
+            android:id="@+id/opt_bgm"
+            style = "@style/MenuFont"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onClick"/>
+
+        <Button
+            android:text="@string/settings_resetscores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonReset"
+            android:onClick="onResetClick"
+            style="@android:style/Widget.Button.Inset" />
+        <Button
+            android:text="@string/settings_reveal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonRevealLevels"
+            android:visibility="visible"
+            android:onClick="onRevealClick"
+            style="@android:style/Widget.Button.Inset" />
+        <Button
+            android:text="Debug"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onDebugClick"
+            style="@android:style/Widget.Button.Inset"
+            android:id="@+id/buttonDebug"
+            />
+    </LinearLayout>
+</RelativeLayout>

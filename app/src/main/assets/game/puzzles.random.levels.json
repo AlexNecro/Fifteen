@@ -1,0 +1,65 @@
+[
+  {
+    "rules": "PUZZLE2",
+    "topscore": "4",
+    "opened": "1"
+  },
+  {
+    "rules": "SWAP2",
+    "topscore": "4",
+    "opened": "1"
+  },
+  {
+    "rules": "PUZZLE3",
+    "topscore": "9"
+  },
+  {
+    "rules": "SWAP3",
+    "topscore": "9"
+  },
+  {
+    "rules": "PUZZLE4",
+    "topscore": "16"
+  },
+  {
+    "rules": "SWAP4",
+    "topscore": "16"
+  },
+  {
+    "rules": "PUZZLE5",
+    "topscore": "25"
+  },
+  {
+    "rules": "SWAP5",
+    "topscore": "25"
+  },
+  {
+    "rules": "PUZZLE6",
+    "topscore": "36"
+  },
+  {
+    "rules": "SWAP6",
+    "topscore": "36"
+  },
+  {
+    "rules": "PUZZLE7",
+    "topscore": "49"
+  },
+  {
+    "rules": "SWAP7",
+    "topscore": "49"
+  },
+  {
+    "rules": "REVOLVE2",
+    "topscore": "4",
+    "opened": "1"
+  },
+  {
+    "rules": "REVOLVE3",
+    "topscore": "20"
+  },
+  {
+    "rules": "REVOLVE4",
+    "topscore": "50"
+  }
+]

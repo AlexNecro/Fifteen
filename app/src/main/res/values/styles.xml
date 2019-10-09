@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@drawable/bg_gradient</item>
+        <item name="android:textColor">#F0E68C</item>
+        <item name="android:buttonStyle">@style/MainMenuButton</item>
+        <item name="android:textViewStyle">@style/MenuFont</item>
+    </style>
+
+    <style name="MainMenuButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#FFFFFF00</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/mainmenu_text_shadow_white</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+    </style>
+
+    <style name="MenuFont" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#FFFFFF00</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:clickable">true</item>
+        <item name="android:shadowColor">@color/mainmenu_text_shadow_white</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="ScoresLevelFont" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FFFFFF00</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:clickable">true</item>
+        <item name="android:shadowColor">@color/mainmenu_text_shadow_white</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="ExitFont" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#FFFFFF00</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:clickable">true</item>
+        <item name="android:shadowColor">@color/mainmenu_text_shadow_white</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="GameWinFont">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#FFFFFFff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:shadowColor">@color/gray</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="LevelStarsBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/level_stars</item>
+        <item name="android:minHeight">17dip</item>
+        <item name="android:maxHeight">32dip</item>
+    </style>
+    <style name="LevelStarsBarBig" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/level_stars_big</item>
+    </style>
+</resources>

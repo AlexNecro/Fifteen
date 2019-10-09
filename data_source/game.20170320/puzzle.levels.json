@@ -1,0 +1,75 @@
+[
+  {
+    "id": "squirrel_puzzle3",
+    "path": "squirrel.png",
+    "rules": "PUZZLE3",
+    "topscore": "9",
+    "opened": "1"
+  },
+  {
+    "id": "machine_yellow_puzzle3",
+    "path": "machine_yellow.png",
+    "rules": "PUZZLE3",
+    "topscore": "9"
+  },
+  {
+    "id": "machine_blue_puzzle4",
+    "path": "machine_blue.png",
+    "rules": "PUZZLE4",
+    "topscore": "16"
+  },
+  {
+    "id": "apple_puzzle4",
+    "path": "apple.png",
+    "rules": "PUZZLE4",
+    "topscore": "16"
+  },
+  {
+    "id": "machine_red_puzzle5",
+    "path": "machine_red.png",
+    "rules": "PUZZLE5",
+    "topscore": "25"
+  },
+  {
+    "id": "flower_puzzle5",
+    "path": "flower.png",
+    "rules": "PUZZLE5",
+    "topscore": "25"
+  },
+  {
+    "id": "machine_violet_puzzle5",
+    "path": "machine_violet.png",
+    "rules": "PUZZLE5",
+    "topscore": "25"
+  },
+  {
+    "id": "football_ball_puzzle6",
+    "path": "football_ball.png",
+    "rules": "PUZZLE6",
+    "topscore": "36"
+  },
+  {
+    "id": "machine_yellow_puzzle6",
+    "path": "machine_yellow.png",
+    "rules": "PUZZLE6",
+    "topscore": "36"
+  },
+  {
+    "id": "squirrel_puzzle6",
+    "path": "squirrel.png",
+    "rules": "PUZZLE6",
+    "topscore": "36"
+  },
+  {
+    "id": "apple_puzzle6",
+    "path": "apple.png",
+    "rules": "PUZZLE6",
+    "topscore": "36"
+  },
+  {
+    "id": "machine_red_puzzle6",
+    "path": "machine_red.png",
+    "rules": "PUZZLE6",
+    "topscore": "36"
+  }
+]

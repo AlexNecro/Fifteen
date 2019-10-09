@@ -1,0 +1,23 @@
+[
+  {
+    "path": "numbers/16.png",
+    "rules": "CLASSIC4",
+    "topscore": "80",
+    "opened": "1"
+  },
+  {
+    "path": "numbers/25.png",
+    "rules": "CLASSIC5",
+    "topscore": "219"
+  },
+  {
+    "path": "numbers/36.png",
+    "rules": "CLASSIC6",
+    "topscore": "439"
+  },
+  {
+    "path": "numbers/49.png",
+    "rules": "CLASSIC7",
+    "topscore": "700"
+  }
+]

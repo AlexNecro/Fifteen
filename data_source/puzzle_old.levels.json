@@ -1,0 +1,112 @@
+[
+  {
+    "path": "1.jpg",
+    "rules": "PUZZLE2",
+    "topscore": "4",
+    "opened": "1"
+  },
+  {
+    "path": "2.jpg",
+    "rules": "PUZZLE2",
+    "topscore": "4"
+  },
+  {
+    "path": "3.jpg",
+    "rules": "PUZZLE2",
+    "topscore": "4"
+  },
+  {
+    "path": "4.jpg",
+    "rules": "PUZZLE3",
+    "topscore": "9"
+  },
+  {
+    "path": "5.jpg",
+    "rules": "PUZZLE3",
+    "topscore": "9"
+  },
+  {
+    "path": "6.jpg",
+    "rules": "PUZZLE3",
+    "topscore": "9"
+  },
+  {
+    "path": "7.jpg",
+    "rules": "PUZZLE4",
+    "topscore": "16"
+  },
+  {
+    "path": "8.jpg",
+    "rules": "PUZZLE4",
+    "topscore": "16"
+  },
+  {
+    "path": "9.jpg",
+    "rules": "PUZZLE4",
+    "topscore": "16"
+  },
+  {
+    "path": "a.jpg",
+    "rules": "PUZZLE5",
+    "topscore": "25"
+  },
+  {
+    "path": "b.jpg",
+    "rules": "PUZZLE5",
+    "topscore": "25"
+  },
+  {
+    "path": "c.jpg",
+    "rules": "PUZZLE5",
+    "topscore": "25"
+  },
+  {
+    "path": "d.jpg",
+    "rules": "PUZZLE5",
+    "topscore": "25"
+  },
+  {
+    "path": "e.jpg",
+    "rules": "PUZZLE5",
+    "topscore": "25"
+  }
+,
+  {
+    "path": "f.jpg",
+    "rules": "PUZZLE6",
+    "topscore": "36"
+  },
+  {
+    "path": "g.jpg",
+    "rules": "PUZZLE6",
+    "topscore": "36"
+  },
+  {
+    "path": "h.jpg",
+    "rules": "PUZZLE6",
+    "topscore": "36"
+  },
+  {
+    "path": "i.jpg",
+    "rules": "PUZZLE6",
+    "topscore": "36"
+  }
+,
+  {
+    "path": "j.jpg",
+    "rules": "PUZZLE7",
+    "topscore": "49"
+  }
+,
+  {
+    "path": "k.jpg",
+    "rules": "PUZZLE7",
+    "topscore": "49"
+  }
+,
+  {
+    "path": "l.jpg",
+    "rules": "PUZZLE7",
+    "topscore": "49"
+  }
+]

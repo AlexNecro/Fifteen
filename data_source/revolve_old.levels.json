@@ -1,0 +1,49 @@
+[
+  {
+    "path": "1.jpg",
+    "rules": "REVOLVE2",
+    "topscore": "4",
+    "opened": "1"
+  },
+  {
+    "path": "2.jpg",
+    "rules": "REVOLVE2",
+    "topscore": "4"
+  },
+  {
+    "path": "3.jpg",
+    "rules": "REVOLVE2",
+    "topscore": "4",
+    "opened": "1"
+  },
+  {
+    "path": "4.jpg",
+    "rules": "REVOLVE3",
+    "topscore": "9"
+  },
+  {
+    "path": "5.jpg",
+    "rules": "REVOLVE3",
+    "topscore": "9"
+  },
+  {
+    "path": "6.jpg",
+    "rules": "REVOLVE3",
+    "topscore": "9"
+  },
+  {
+    "path": "9.jpg",
+    "rules": "REVOLVE4",
+    "topscore": "9"
+  },
+  {
+    "path": "m.jpg",
+    "rules": "REVOLVE4",
+    "topscore": "16"
+  },
+  {
+    "path": "n.jpg",
+    "rules": "REVOLVE4",
+    "topscore": "16"
+  }
+]

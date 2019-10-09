@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Пятнашки</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="splash">Splash Screen</string>
+    <string name="game">Game Screen</string>
+    <string name="menu">Menu Screen</string>
+    <string name="help">Help Screen</string>
+    <string name="scores">Scores Screen</string>
+    <string name="settings">Settings Screen</string>
+    <string name="settings_sound">Звуковые эффекты</string>
+    <string name="settings_music">Музыка</string>
+    <string name="settings_on">Вкл</string>
+    <string name="settings_off">Выкл</string>
+
+    <string name="menu_about">Об игре</string>
+    <string name="menu_exit">Выход</string>
+    <string name="menu_settings">Настройки</string>
+
+    <string name="game_won">Победа! :)))</string>
+    <string name="game_loose">Проигрыш ;(</string>
+    <string name="about_author">Курдюков Алексей, 2017</string>
+    <string name="menu_scores">Результаты</string>
+    <string name="settings_resetscores">Сбросить счет и прогресс игры</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="settings_resetalert_question">Сбросить все данные?</string>
+    <string name="settings_resetalert_title">Сбросить счет и прогресс игры</string>
+    <string name="game_wonall">Ты прошёл все уровни! Молодец!</string>
+    <string name="game_15">Пятнашки</string>
+    <string name="game_puzzle">Паззл</string>
+    <string name="game_revolve">Барабан</string>
+    <string name="game_swap">Сдвиг</string>
+    <string name="menu_start_game_swap">Сдвигай</string>
+    <string name="menu_start_game_revolve">Вращай</string>
+    <string name="gamedesc_15">Выстоите числа по порядку, двигая их на пустое пространство</string>
+    <string name="gamedesc_revolve">Соберите картину прокручивая по вертикали или горизонтали</string>
+    <string name="gamedesc_swap">Соберите картину меняя местами соседние фрагменты</string>
+    <string name="gamedesc_puzzle">Соберите картину меняя местами любые фрагменты</string>
+    <string name="gamename_fifteen_random">Игра \"15\" (случайная)</string>
+    <string name="gamename_puzzles_random">Паззлы (случайные)</string>
+    <string name="gamename_fifteen_challenge">Игра \"15\" (испытание)</string>
+    <string name="gamename_puzzles_challenge">Паззлы (испытание)</string>
+</resources>

@@ -1,0 +1,76 @@
+[
+  {
+    "id": "squirrel_swap3",
+    "path": "squirrel.png",
+    "rules": "SWAP3",
+    "topscore": "8",
+    "opened": "1"
+  },
+  {
+    "id": "machine_yellow_swap3",
+    "path": "machine_yellow.png",
+    "rules": "SWAP3",
+    "topscore": "8",
+    "opened": "1"
+  },
+  {
+    "id": "machine_blue_swap4",
+    "path": "machine_blue.png",
+    "rules": "SWAP4",
+    "topscore": "20"
+  },
+  {
+    "id": "apple_swap4",
+    "path": "apple.png",
+    "rules": "SWAP4",
+    "topscore": "20"
+  },
+  {
+    "id": "machine_red_swap5",
+    "path": "machine_red.png",
+    "rules": "SWAP5",
+    "topscore": "60"
+  },
+  {
+    "id": "flower_swap5",
+    "path": "flower.png",
+    "rules": "SWAP5",
+    "topscore": "60"
+  },
+  {
+    "id": "machine_violet_swap6",
+    "path": "machine_violet.png",
+    "rules": "SWAP6",
+    "topscore": "100"
+  },
+  {
+    "id": "football_ball_swap6",
+    "path": "football_ball.png",
+    "rules": "SWAP6",
+    "topscore": "100"
+  },
+  {
+    "id": "machine_yellow_revolve3",
+    "path": "machine_yellow.png",
+    "rules": "REVOLVE3",
+    "topscore": "8"
+  },
+  {
+    "id": "squirrel_revolve4",
+    "path": "squirrel.png",
+    "rules": "REVOLVE4",
+    "topscore": "20"
+  },
+  {
+    "id": "apple_revolve5",
+    "path": "apple.png",
+    "rules": "REVOLVE5",
+    "topscore": "60"
+  },
+  {
+    "id": "machine_red_revolve6",
+    "path": "machine_red.png",
+    "rules": "REVOLVE6",
+    "topscore": "100"
+  }
+]

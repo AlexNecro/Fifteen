@@ -1,0 +1,18 @@
+[
+  {
+    "path": "fifteen.random",
+    "name": "gamename_fifteen_random"
+  },
+  {
+    "path": "fifteen.challenge",
+    "name": "gamename_fifteen_challenge"
+  },
+  {
+    "path": "puzzles.random",
+    "name": "gamename_puzzles_random"
+  },
+  {
+    "path": "puzzles.challenge",
+    "name": "gamename_puzzles_challenge"
+  }
+]

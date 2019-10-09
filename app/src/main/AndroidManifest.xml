@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hollowness.necro.fifteen" >
+    <!--android:screenOrientation="portrait"-->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="hollowness.necro.fifteen.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="hollowness.necro.fifteen.MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="hollowness.necro.fifteen.AboutActivity" >
+        </activity>
+        <activity
+            android:name="hollowness.necro.fifteen.SettingsActivity" >
+        </activity>
+        <activity
+            android:name="hollowness.necro.fifteen.GameFifteenActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/SplashTheme">
+        </activity>
+    <activity
+        android:name="hollowness.necro.fifteen.LevelSelectionActivity">
+    </activity>
+        <activity
+            android:name="hollowness.necro.fifteen.ScoresActivity" >
+        </activity>
+    </application>
+</manifest>

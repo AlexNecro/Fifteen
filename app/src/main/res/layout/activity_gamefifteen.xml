@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gameViewport" />
+
+    <LinearLayout
+        android:id="@+id/gameWinButtons"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:text="@string/game_won"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/GameWinFont"
+            android:id="@+id/textView3" />
+
+        <LinearLayout
+        android:visibility="visible"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:background="@drawable/btn_replay"
+                android:id="@+id/imageView2"
+                android:onClick="onReplayClick"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false" />
+
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:background="@drawable/btn_next"
+                android:id="@+id/imageView3"
+                android:onClick="onNextLevelClick"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/grid_score"
+            style="@style/LevelStarsBarBig"
+            android:numStars="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:isIndicator="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/gameWinAll"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:text="@string/game_wonall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/GameWinFont"
+            android:id="@+id/textView4" />
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:background="@drawable/goblet1"
+                android:id="@+id/imageViewGoblet"
+                android:onClick="onReplayClick"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/debug"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="false"
+        >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save level"
+            android:onClick="onSaveClick"/>
+    </LinearLayout>
+</RelativeLayout>
